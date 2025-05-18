@@ -16,9 +16,7 @@ A smart study planner application that helps students organize their exam prepar
 
 ## Demo
 
-https://github.com/yourusername/study-planner/assets/demo.gif
-
-[View Live Demo](https://your-demo-url.com)
+https://github.com/user-attachments/assets/53c089db-6ce8-472b-ae4c-dce9bff835c5
 
 ## Tech Stack
 
