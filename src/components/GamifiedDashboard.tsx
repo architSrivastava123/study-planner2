@@ -305,4 +305,6 @@ export default function GamifiedDashboard() {
           </div>
         </div>
       </motion.div>
-    </di
+    </div>
+  );
+}

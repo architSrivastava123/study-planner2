@@ -5,6 +5,7 @@ import ExamScheduleComponent from './components/ExamSchedule';
 import SyllabusInput from './components/SyllabusInput';
 import PriorityAllocation from './components/PriorityAllocation';
 import Timetable from './components/Timetable';
+import GamifiedDashboard from './components/GamifiedDashboard';
 import { StudyPlannerProvider } from './context/StudyPlannerContext';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <StudyPlannerProvider>
       <Router>
         <Routes>
-          <Route path="/" element={<Navigate to="/daily-hours" />} />
+          <Route path="/" element={<Navigate to="/dashboard" />} />
+          <Route path="/dashboard" element={<GamifiedDashboard />} />
           <Route path="/daily-hours" element={<DailyHoursCalculator />} />
           <Route path="/exam-schedule" element={<ExamScheduleComponent />} />
           <Route path="/syllabus" element={<SyllabusInput />} />
